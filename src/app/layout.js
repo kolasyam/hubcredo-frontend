@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Quantum-assignment",
-  description: "Quantum-assignment",
+  title: "Hubcredo-assignment",
+  description: "Hubcredo-assignment",
 };
 
 export default function RootLayout({ children }) {

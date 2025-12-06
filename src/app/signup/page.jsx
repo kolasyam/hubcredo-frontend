@@ -18,7 +18,7 @@ export default function SignupPage() {
     setError("");
     setLoading(true);
     try {
-      const res = await axios.post("https://quantum-backend-1-0tpn.onrender.com/api/user/register", {
+      const res = await axios.post("https://hubcredo-backend-1.onrender.com/api/user/register", {
         name,
         email,
         dob,
