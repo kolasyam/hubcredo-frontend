@@ -16,7 +16,7 @@ export default function Dashboard() {
       }
       try {
         const userResponse = await fetch(
-          "https://hubcredo-backend-1.onrender.com/api/user/profile",
+          "https://hubcredo-backend-de0y.onrender.com/api/user/profile",
           { headers: { Authorization: `Bearer ${token}` } }
         );
 

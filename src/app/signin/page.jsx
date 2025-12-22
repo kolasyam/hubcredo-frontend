@@ -25,7 +25,7 @@ export default function SignupPage() {
     setError("");
     setLoading(true);
     try {
-      const res = await axios.post("https://hubcredo-backend-1.onrender.com/api/user/login", {
+      const res = await axios.post("https://hubcredo-backend-de0y.onrender.com/api/user/login", {
         email,
         password,
       });
